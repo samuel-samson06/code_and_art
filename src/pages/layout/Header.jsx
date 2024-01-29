@@ -58,7 +58,7 @@ function Header() {
                 className=" rounded-xl bg-white w-7 h-0.5 text-transparent">.</motion.div>
             </section>
         </header>
-        <br /><br /><br /><br />
+        <br /><br /><br />
     </React.Fragment>
   )
 }
