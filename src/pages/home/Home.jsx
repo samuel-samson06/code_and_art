@@ -1,5 +1,6 @@
 import React from "react"
 import ImageLinks from "./ImageLinks"
+import CanvasSection from "./CanvasSection"
 
 
 function Home() {
@@ -8,6 +9,9 @@ function Home() {
       <div>
         <ImageLinks/>
       </div>
+      <section>
+        <CanvasSection/>
+      </section>
     </React.Fragment>
   )
 }
