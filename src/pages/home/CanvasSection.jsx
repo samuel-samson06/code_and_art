@@ -1,5 +1,6 @@
 import React from 'react'
 import { canvasArray } from '../../staticdataFolder/Canvas'
+import { NavLink } from 'react-router-dom'
 
 function CanvasSection() {
   return (
@@ -10,12 +11,14 @@ function CanvasSection() {
                 {
                     canvasArray.slice(4,8).map((eachCanvas)=>{
                         return (
-                            <div key={eachCanvas.id} className=' items-center p-2 border-2 border-black flex flex-col gap-1'>
-                                <img src={eachCanvas.img} alt="" className=' w-60'/>
-                                <p className=' font-semibold uppercase'>{eachCanvas.name}</p>
-                                <p className=' font-medium text-sm text-slate-700'>{eachCanvas.type}</p>
-                                <p className=' border-t-[1px] border-black font-bold '>₦{eachCanvas.price.toLocaleString()}</p>
-                            </div>
+                            <NavLink to={`/${eachCanvas.id}`} key={eachCanvas.id}>
+                                <div key={eachCanvas.id} className=' items-center p-2 border-2 border-black flex flex-col gap-1'>
+                                    <img src={eachCanvas.img} alt="" className=' w-60'/>
+                                    <p className=' font-semibold uppercase'>{eachCanvas.name}</p>
+                                    <p className=' font-medium text-sm text-slate-700'>{eachCanvas.type}</p>
+                                    <p className=' border-t-[1px] border-black font-bold '>₦{eachCanvas.price.toLocaleString()}</p>
+                                </div>
+                            </NavLink>
                         )
                     })
                 }
