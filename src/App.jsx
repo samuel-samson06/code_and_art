@@ -5,7 +5,8 @@ import CodeArt from "./CodeArt"
 function App() {
 
   const [navBarTrigger, setNavBarTrigger] = useState(false)
-  const value={navBarTrigger,setNavBarTrigger}
+  const [cart,setCart]=useState([])
+  const value={navBarTrigger,setNavBarTrigger,cart,setCart}
 
 
   return (

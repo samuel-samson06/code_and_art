@@ -29,7 +29,7 @@ export const canvasArray=[
         name:"Angel of Many Stories",
         img:art1,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:1
     },
@@ -37,7 +37,7 @@ export const canvasArray=[
         name:"Bear and Bullish",
         img:art2,
         type:'Canvas',
-        price:20000,
+        price:35000,
         available:true,
         pieces:1,id:2
     },
@@ -45,7 +45,7 @@ export const canvasArray=[
         name:"Beastie",
         img:art3,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:3
     },
@@ -53,7 +53,7 @@ export const canvasArray=[
         name:"Believe",
         img:art4,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:4
     },
@@ -61,7 +61,7 @@ export const canvasArray=[
         name:"Blinding Lights",
         img:art5,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:5
     },
@@ -69,7 +69,7 @@ export const canvasArray=[
         name:"Clouded Days",
         img:art6,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:6
     },
@@ -77,7 +77,7 @@ export const canvasArray=[
         name:"Cognitive Habitat",
         img:art7,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:7
     },
@@ -85,7 +85,7 @@ export const canvasArray=[
         name:"Country of Fear",
         img:art8,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:8
     },
@@ -93,7 +93,7 @@ export const canvasArray=[
         name:"For You",
         img:art9,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:9
     },
@@ -101,7 +101,7 @@ export const canvasArray=[
         name:"GenZ Goat",
         img:art10,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:10
     },
@@ -109,7 +109,7 @@ export const canvasArray=[
         name:"Gummy Bears By Looney Kazy",
         img:art11,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:11
     },
@@ -117,7 +117,7 @@ export const canvasArray=[
         name:"Hermes",
         img:art12,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:12
     },
@@ -125,7 +125,7 @@ export const canvasArray=[
         name:"Lady in Red Top",
         img:art13,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:13
     },
@@ -133,7 +133,7 @@ export const canvasArray=[
         name:"Leo Messi",
         img:art14,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:14
     },
@@ -141,7 +141,7 @@ export const canvasArray=[
         name:"Moral Meeting",
         img:art15,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:15
     },
@@ -149,7 +149,7 @@ export const canvasArray=[
         name:"My Infant Head",
         img:art16,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:16
     },
@@ -157,7 +157,7 @@ export const canvasArray=[
         name:"Notice Board",
         img:art17,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:17
     },
@@ -165,7 +165,7 @@ export const canvasArray=[
         name:"Siane Santonium",
         img:art18,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:18
     },
@@ -173,7 +173,7 @@ export const canvasArray=[
         name:"The Circle",
         img:art19,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:19
     },
@@ -181,7 +181,7 @@ export const canvasArray=[
         name:"The Unbroken",
         img:art20,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:20
     },
@@ -189,7 +189,7 @@ export const canvasArray=[
         name:"Thuggin Goat",
         img:art21,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:21
     },
@@ -197,7 +197,7 @@ export const canvasArray=[
         name:"What If ?",
         img:art22,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:22
     },
@@ -205,7 +205,7 @@ export const canvasArray=[
         name:"Young and Dumb",
         img:art23,
         type:'Canvas',
-        price:30000,
+        price:35000,
         available:true,
         pieces:1,id:23
     },

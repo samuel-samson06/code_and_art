@@ -10,6 +10,7 @@ import Collectibles from "./pages/collectibles/Collectibles"
 import Contact from "./pages/contact/Contact"
 import ArtPage from "./pages/artpage/ArtPage"
 import CustomerInfo from "./pages/customer/CustomerInfo"
+import Cart from "./pages/cart/Cart"
 
 function CodeArt() {
     return(
@@ -25,7 +26,8 @@ function CodeArt() {
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/merch" element={<Merch/>}/>
                     <Route path="/:id" element={<ArtPage/>}/>
-                    <Route path="customerdetails" element={<CustomerInfo/>}/>
+                    <Route path="/cart" element={<Cart/>}/>
+                    <Route path="/cart/customerdetails" element={<CustomerInfo/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
