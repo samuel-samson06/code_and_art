@@ -3,5 +3,29 @@
 @tailwind utilities;
 
 
+@font-face{
+        font-family: "Boogaloo";
+        src: url("/fonts/Boogaloo-Regular.ttf");   
+}
+@font-face{
+        font-family: "Fredoka";
+        src: url("/fonts/Fredoka-VariableFont_wdth\,wght.ttf");   
+}
+@font-face{
+    font-family: 'ArchitectDaughter';
+    src: url('/fonts/ArchitectsDaughter-Regular.ttf');
+}
+@font-face {
+    font-family: 'Fredoka2';
+    src: url('/fonts/static/Fredoka_SemiCondensed-Light.ttf');
+}
+@font-face{
+    font-family: 'Fredoka3';
+    src: url('/fonts/static/Fredoka_Expanded-Bold.ttf');
+}
+@font-face {
+    font-family: 'Fredoka4';
+    src: url('/fonts/static/Fredoka_Condensed-Medium.ttf');
+}
 
 

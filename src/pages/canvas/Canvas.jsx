@@ -10,10 +10,10 @@ function Canvas() {
           return(
               <NavLink to={`/${eachCanvas.id}`} key={eachCanvas.id}>
                 <div  className=' items-center p-2 border-2 border-black flex flex-col gap-1'>
-                  <img src={eachCanvas.img} alt="" className=' w-60'/>
-                  <p className=' text-center text-xs font-semibold uppercase'>{eachCanvas.name}</p>
+                  <img src={eachCanvas.img} alt="" loading={"lazy"} className=' w-60'/>
+                  <p className={`${eachCanvas.name.length>14?'text-[10px]':'text-sm'} text-center text-xs font-semibold uppercase font-fredoka2`}>{eachCanvas.name}</p>
                   <p className=' font-medium text-sm text-slate-700'>{eachCanvas.type}</p>
-                  <p className=' border-t-[1px] border-black font-bold '>₦{eachCanvas.price.toLocaleString()}</p>
+                  <p className=' border-t-[1px] border-black font-bold font-fredoka3 '>₦{eachCanvas.price.toLocaleString()}</p>
                 </div>
               </NavLink>
           )

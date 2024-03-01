@@ -15,7 +15,9 @@ function Header() {
     <React.Fragment>
         <header className=" z-10 fixed  w-full  px-4 flex justify-between items-center bg-black">
             <section>
-                <img src={logo} alt="Logo" className="  w-20 sm:w-24 md:w-28" />
+                <NavLink to={"/"}>
+                    <img src={logo} alt="Logo" className="  w-20 sm:w-24 md:w-28" />
+                </NavLink>
             </section>
             <div className=" flex flex-row-reverse gap-5 items-center">
                 <section onClick={handleNavTrigger} className=" flex flex-col gap-1.5">
